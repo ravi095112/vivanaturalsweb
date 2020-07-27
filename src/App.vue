@@ -1,28 +1,27 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app" class="container-fluid">
+    <Feedback/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Feedback from './components/Feedback.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Feedback
   }
 }
 </script>
 
-<style>
+<style scoped>
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+	margin-top: 5px;
+ 	font-family: Avenir, Helvetica, Arial, sans-serif;
+  	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
 }
+
 </style>
